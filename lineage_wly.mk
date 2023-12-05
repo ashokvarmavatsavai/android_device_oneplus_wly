@@ -11,6 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from wly device
 $(call inherit-product, device/oneplus/wly/device.mk)
 
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_SCREEN_HEIGHT := 3216
+TARGET_SCREEN_WIDTH := 1440
+TARGET_BOOT_ANIMATION_RES := 1440
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
