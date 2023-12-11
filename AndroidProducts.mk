@@ -6,7 +6,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-<<<<<<< HEAD
     $(LOCAL_DIR)/evolution_wly.mk
 
 COMMON_LUNCH_CHOICES := \
